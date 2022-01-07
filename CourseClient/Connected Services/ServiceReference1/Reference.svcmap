@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="467469de-d128-41ed-b2c8-7ce3d41473ab" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://localhost:44399/CourseService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CourseService.xsd" MetadataType="Schema" ID="d4db8215-2239-4119-910d-a1e7a3bac1aa" SourceId="1" SourceUrl="https://localhost:44399/CourseService.svc?xsd=xsd0" />
+    <MetadataFile FileName="CourseService1.xsd" MetadataType="Schema" ID="29922b70-4d3b-46a0-944e-761d283d8432" SourceId="1" SourceUrl="https://localhost:44399/CourseService.svc?xsd=xsd1" />
+    <MetadataFile FileName="CourseService.wsdl" MetadataType="Wsdl" ID="87daac3f-faaa-43c8-b381-386bb5b3ba1f" SourceId="1" SourceUrl="https://localhost:44399/CourseService.svc?wsdl" />
+    <MetadataFile FileName="CourseService2.xsd" MetadataType="Schema" ID="81f56585-0804-4df3-89d5-1f33dcc1484e" SourceId="1" SourceUrl="https://localhost:44399/CourseService.svc?xsd=xsd2" />
+    <MetadataFile FileName="CourseService.disco" MetadataType="Disco" ID="76680752-6dc5-463e-b3c9-0eb2042c7859" SourceId="1" SourceUrl="https://localhost:44399/CourseService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
